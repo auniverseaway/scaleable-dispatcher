@@ -1,12 +1,12 @@
 /url "/bin/permissioncheck.html"
 /filter
     {
-        /0000
+        /0010
             {
                 /glob "*"
                 /type "deny"
             }
-        /0001
+        /0020
         {
             /glob "*.html"
             /type "allow"
@@ -14,12 +14,12 @@
     }
 /headers
     {
-        /0000
+        /0010
             {
                 /glob "*"
                 /type "deny"
             }
-        /0001
+        /0020
             {
                 /glob "Set-Cookie:*"
                 /type "allow"
