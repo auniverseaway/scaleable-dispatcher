@@ -1,0 +1,27 @@
+/url "/bin/permissioncheck.html"
+/filter
+    {
+        /0000
+            {
+                /glob "*"
+                /type "deny"
+            }
+        /0001
+        {
+            /glob "*.html"
+            /type "allow"
+        }
+    }
+/headers
+    {
+        /0000
+            {
+                /glob "*"
+                /type "deny"
+            }
+        /0001
+            {
+                /glob "Set-Cookie:*"
+                /type "allow"
+            }
+    }

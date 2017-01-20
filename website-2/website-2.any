@@ -1,0 +1,34 @@
+    /clientheaders
+        {
+            $include "clientheaders.any"
+        }
+
+    /virtualhosts
+        {
+            $include "virtualhosts.any"
+        }
+
+    /renders
+        {
+            $include "renders.any"
+        }
+      
+    /filter
+        {
+            $include "filter.any"
+        }
+
+    /cache
+        {
+            $include "cache.any"
+        }
+
+    /statistics
+        {
+            $include "statistics.any"
+        }
+
+#    /auth_checker
+#        {
+#            $include "auth_checker.any"
+#        }

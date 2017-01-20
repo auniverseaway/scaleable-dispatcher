@@ -1,0 +1,36 @@
+/docroot "/apps/aem/dispatcher/cache"
+
+#/statfileslevel "0"
+
+#/allowAuthorized "0"
+
+#/serveStaleOnError "0"
+
+/rules
+    {
+        $include "cache/rules.any"
+    }
+
+/invalidate
+    {
+        $include "cache/invalidate.any"
+    }
+
+#/allowedClients
+#    {
+#        $include "cache/allowedClients.any"
+#    }
+
+#/ignoreUrlParams
+#    {
+#        $include "cache/ignoreUrlParams.any"
+#    }
+
+#/headers
+#    {
+#        $include "cache/headers.any"
+#    }
+
+#/gracePeriod "2"
+
+#/enableTTL "1"

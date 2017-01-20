@@ -1,0 +1,8 @@
+/0001
+    {
+        /glob "*" /type "deny"
+    }
+/0002
+    {
+        /glob "q" /type "allow" 
+    }

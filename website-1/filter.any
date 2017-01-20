@@ -1,0 +1,35 @@
+/0010
+    {
+        /type "deny" /glob "*"
+    }
+
+/0020
+    {
+        /type "allow" /url "/content*"
+    }
+
+/0030
+    {
+        /type "allow"
+        /extension '(css|gif|ico|js|png|swf|jpe?g)'
+    }
+
+/0040
+    {
+        /type "allow" /url "/libs/cq/personalization/*"
+    }
+
+/0050
+    {
+        /type "deny"
+        /selectors '((sys|doc)view|query|[0-9-]+)'
+        /extension '(json|xml)'
+    }
+
+/0060
+    {
+        /type "deny"
+        /path "/content"
+        /selectors '(feed|rss|pages|languages|blueprint|infinity|tidy)'
+        /extension '(json|xml|html)'
+    }

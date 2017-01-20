@@ -1,0 +1,11 @@
+/categories
+    {
+        /html
+            {
+                /glob "*.html"
+            }
+        /others
+            {
+                /glob "*"
+            }
+    }

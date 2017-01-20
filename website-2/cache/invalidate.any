@@ -1,0 +1,20 @@
+/0010
+    {
+        /glob "*"
+        /type "deny"
+    }
+/0020
+    {
+        /glob "*.html"
+        /type "allow"
+    }
+/0030
+    {
+        /glob "/etc/segmentation.segment.js"
+        /type "allow"
+    }
+/0040
+    {
+        /glob "*/analytics.sitecatalyst.js"
+        /type "allow"
+    }
