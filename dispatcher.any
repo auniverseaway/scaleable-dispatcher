@@ -2,11 +2,11 @@
     {
         /website-1
         {
-            $include "website-1/website-1.any"
+            $include "website-1/farm.any"
         }
 
         /website-2
         {
-            $include "website-2/website-2.any"
+            $include "website-2/farm.any"
         }
     }
