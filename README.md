@@ -1,5 +1,5 @@
 # Scaleable Dispatcher
-Scaleable dispatcher is designed to help a company scale beyond the out-of-the-box dispatcher configuration provided by Adobe. *This is provided with no warrany.*
+Scaleable dispatcher is designed to help a company scale beyond the out-of-the-box dispatcher configuration provided by Adobe. *This is not provided by Adobe and comes with no warrany.*
 
 # Notes of Interest
 * These configurations support two websites at two different cache locations.
